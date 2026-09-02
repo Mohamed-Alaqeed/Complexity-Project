@@ -29,7 +29,7 @@ public class Lab01 {
             long opexecutionTime = opendTime - opstartTime;
             System.out.printf(
             "%-12d | %-18d | %-12d | %-15d | %-18d | %-12d | %-15d%n",
-            arr.length, bfindex, bfexecutionTime, bfAdditions, opIndex, opexecutionTime, opAdditions
+            arr.length, bfindex, bfexecutionTime, Math.abs(bfAdditions), opIndex, opexecutionTime, opAdditions
             );
         }
 }
