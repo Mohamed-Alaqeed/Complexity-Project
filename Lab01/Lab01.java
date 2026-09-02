@@ -1,7 +1,5 @@
 package Lab01;
 
-import java.util.Random;
-
 public class Lab01 {
     static int bfAdditions = 0;
     static int opAdditions = 0;
